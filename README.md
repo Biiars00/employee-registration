@@ -102,4 +102,9 @@ src
 | GET      | /api-iniflex/aniversariantes-mes         | Aniversariantes do mês |
 | GET      | /api-iniflex/funcionarios-funcao         | Agrupamento de funcionários por função |
 
+### Algumas melhorias a serem realizadas:
+- Tratamento de exceções (é fundamental para garantir que o sistema tenha um comportamento previsvel e amigável para os ausuários);
+- Testes unitários e de integração (para malhorar a qualidade so software);
+- Swagger (para melhor visualização dos endpoints disponíveis);
+- Interface web (para melhor interação dos usuários).
 
