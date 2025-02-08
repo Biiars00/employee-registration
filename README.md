@@ -35,7 +35,7 @@
 ## Arquitetura da Aplicação
 A aplicação segue uma arquitetura simples de MVC *(Model-View-Controller)*:
 
-```json
+```
 src
 │
 ├── main
