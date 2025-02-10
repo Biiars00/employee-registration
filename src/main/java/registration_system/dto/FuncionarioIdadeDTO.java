@@ -24,4 +24,9 @@ public class FuncionarioIdadeDTO {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    @Override
+    public String toString() {
+        return " Nome: " + this.getNome() + " | Idade: " + this.getIdade();
+    }
 }
