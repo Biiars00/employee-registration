@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +32,6 @@ public class FuncionarioService {
     }
 
     public String formatarSalario(BigDecimal valor) {
-        @SuppressWarnings("deprecation")
         NumberFormat formatador = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
         return formatador.format(valor);
     }
