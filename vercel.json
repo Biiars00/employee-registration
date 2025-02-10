@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "src/index.java",
+        "src": "target/registration-system-1.0.0.jar",
         "use": "@vercel/java"
       }
     ],
