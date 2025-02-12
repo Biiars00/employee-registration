@@ -79,11 +79,7 @@ src
 - Clone o repositório:
 `git clone https://github.com/Biiars00/sistema-cadastro-funcionarios.git`
 
-- Execute o projeto com o Maven:
-`mvn spring-boot:run`
-
-   - Alternativamente, você pode empacotar o projeto como um arquivo JAR e executá-lo:
-`java -jar target/sistema-cadastro-funcionarios.jar`
+OBS: No arquivo `application.properties`, defina `spring.profiles.active=dev`
 
 - A aplicação estará disponível na URL: `http://localhost:8080`
 
