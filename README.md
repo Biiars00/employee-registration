@@ -87,6 +87,10 @@ src
 
 - A aplicação estará disponível na URL:
 `http://localhost:8080`
+     >Obs: É necessário ter os valores das variáveis de ambiente.
+     Ex: `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_PASSWORD`, `DB_USERNAME`
+
+- **Acesse a API em produção:** `https://web-production-99d3.up.railway.app`
 
 ## Endpoints da API
 
